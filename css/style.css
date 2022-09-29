@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: #ff6666;
+    padding: 2vmin 0;
+    font-family: 'Chilanka', cursive;
+}
+
+header h1{
+    text-align: center;
+    font-size: 4em;
+    color: #c1e7e1;
+}
+
+body{
+    background-color: #4DB380;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.score-board{
+    color: #fee11a;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 2vmin;
+}
+
+.score-board .userscore, .score-board .compscore, .score-board span{
+    display: inline-block;
+    padding: 0 1vmin;
+}
+
+.score-board span{
+    font-size: 2em;
+    color: #fff8e7;
+}
+
+#userScoreVal {
+    background-color: #1e90ff;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+#compScoreVal {
+    background-color: #ED4C67;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.attempt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attempt-content {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+#attempt-tittle {
+    margin-bottom: 0;
+}
+
+.result{
+    text-align: center;
+    margin: 1vmin auto 3vmin auto;
+    font-size: 2em;
+}
+
+#result-final-stat{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #47030f;
+}
+
+.choices{
+    margin: 5vmin auto;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.choice{
+    padding: 3vmin 3vmin;
+    margin: 0 2vmin;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.choice:hover{
+    background-color: #f75555;
+    border: 2px solid #47030f;
+}
+
+.choice img {
+    transition: all .2s ease-in;
+}
+
+.choice:hover img {
+    transform: scale(1.2);
+}
+
+.select-img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.loading-img {
+    width: 50px;
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+
+.name{
+    color: #e7e3ff;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    outline: none;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 200ms linear;
+}
+
+.reset button:hover {
+    transform: translateY(0px);
+    box-shadow: none;
+}
