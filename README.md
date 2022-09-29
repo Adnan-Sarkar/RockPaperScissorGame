@@ -9,7 +9,7 @@ I'm `Adnan Sarkar`. This is Rock-Paper-Scissor Game and javascript DOM short pro
 - ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ## 🖥 Preview
-[Live Preview]()
+[Live Preview](https://rock-paper-scissors-by-adnan-sarkar.netlify.app/)
 
 ![](Project-image.png)
 
